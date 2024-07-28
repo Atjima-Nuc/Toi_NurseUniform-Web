@@ -7,6 +7,8 @@ import {
 } from "../../components/Arrow";
 import useShape from "../../hooks/useShape";
 import "../../css/shape.css";
+import frontShape from "../../assets/body_figure_front";
+import backShape from "../../assets/body_figure_back";
 
 // import Spinner from "../components/Spinner";
 
@@ -21,10 +23,7 @@ export default function ShapeForm({ index, times }) {
   return (
     <div className="flex justify-evenly">
       <div className="relative flex">
-        <img
-          src="../../../public/body_figure_front.jpg"
-          className=" h-[700px] w-auto"
-        />
+        <img src={frontShape} className=" h-[700px] w-auto" />
         <button
           className="absolute top-[127px] right-[60px] "
           id="neckToWaistArrow"
@@ -188,10 +187,7 @@ export default function ShapeForm({ index, times }) {
       ))}
 
       <div className="relative">
-        <img
-          src="../../../public/body_figure_back.jpg"
-          className=" h-[700px] w-auto"
-        ></img>
+        <img src={backShape} className=" h-[700px] w-auto"></img>
         <button
           className="absolute top-[112px] right-[65px]"
           id="backLengthArrow"
