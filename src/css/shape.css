@@ -1,0 +1,57 @@
+body:has(#neckToWaistArrow:hover) #neckToWaist,
+body:has(#neckToWaist:hover) #neckToWaistArrow,
+#neckToWaist:hover,
+#neckToWaistArrow:hover {
+  background-color: rgba(152, 246, 229, 1);
+  border-radius: 10px;
+}
+
+body:has(#backLengthArrow:hover) #backLength,
+body:has(#backLength:hover) #backLengthArrow,
+#backLength:hover,
+#backLengthArrow:hover {
+  background-color: rgba(255, 182, 243, 1);
+  border-radius: 10px;
+}
+
+body:has(#shoulderWidthArrow:hover) #shoulderWidth,
+body:has(#shoulderWidth:hover) #shoulderWidthArrow,
+#shoulderWidth:hover,
+#shoulderWidthArrow:hover {
+  background-color: rgba(152, 246, 229, 1);
+  border-radius: 10px;
+}
+body:has(#chestWidthArrow:hover) #chestWidth,
+body:has(#chestWidth:hover) #chestWidthArrow,
+#chestWidth:hover,
+#chestWidthArrow:hover {
+  background-color: rgba(255, 182, 243, 1);
+  border-radius: 10px;
+}
+body:has(#backWidthArrow:hover) #backWidth,
+body:has(#backWidth:hover) #backWidthArrow,
+#backWidth:hover,
+#backWidthArrow:hover {
+  background-color: rgba(255, 182, 243, 1);
+  border-radius: 10px;
+}
+
+body:has(#bustSeparationArrow:hover) #bustSeparation,
+body:has(#bustSeparation:hover) #bustSeparationArrow,
+#bustSeparation:hover,
+#bustSeparationArrow:hover {
+  background-color: rgba(152, 246, 229, 1);
+  border-radius: 10px;
+}
+
+body:has(#bustHeightArrow:hover) #bustHeight,
+body:has(#bustHeight:hover) #bustHeightArrow,
+#bustHeight:hover,
+#bustHeightArrow:hover {
+  background-color: rgba(255, 182, 243, 1);
+  border-radius: 10px;
+}
+
+#bustHeightArrow {
+  transform: rotate(325deg);
+}

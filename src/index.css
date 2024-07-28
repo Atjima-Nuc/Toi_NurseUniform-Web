@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.neckToWaist.group:hover {
+  background-color: chartreuse;
+}
