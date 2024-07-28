@@ -25,7 +25,7 @@ const leftArrowStyles = {
   transform: "translate(0, -50%)",
   left: "32px",
   fontSize: "45px",
-  color: "##a3a3a3",
+  color: "#a3a3a3",
   zIndex: 1,
   cursor: "pointer",
 };

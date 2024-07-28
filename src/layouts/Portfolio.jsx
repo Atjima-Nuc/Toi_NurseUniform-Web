@@ -1,8 +1,8 @@
 import ImageSlider from "../components/ImageSlider";
-import portImg1 from "../assets/port/1.jpg";
-import portImg2 from "../assets/port/2.jpg";
-import portImg3 from "../assets/port/3.jpg";
-import portImg4 from "../assets/port/4.jpg";
+import portImg1 from "../../public/port/1.jpg";
+import portImg2 from "../../public/port/2.jpg";
+import portImg3 from "../../public/port/3.jpg";
+import portImg4 from "../../public/port/4.jpg";
 
 const Portfolio = () => {
   const slides = [portImg1, portImg2, portImg3, portImg4];
