@@ -22,7 +22,7 @@ export default function ShapeForm({ index, times }) {
     <div className="flex justify-evenly">
       <div className="relative flex">
         <img
-          src="../../src/assets/body_figure_front.jpg"
+          src="../../../public/body_figure_front.jpg"
           className=" h-[700px] w-auto"
         />
         <button
