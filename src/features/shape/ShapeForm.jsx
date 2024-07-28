@@ -7,8 +7,8 @@ import {
 } from "../../components/Arrow";
 import useShape from "../../hooks/useShape";
 import "../../css/shape.css";
-import frontShape from "../../assets/body_figure_front";
-import backShape from "../../assets/body_figure_back";
+import frontShape from "../../assets/body_figure_front.jpg";
+import backShape from "../../assets/body_figure_back.jpg";
 
 // import Spinner from "../components/Spinner";
 
