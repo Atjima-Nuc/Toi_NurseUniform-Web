@@ -189,7 +189,7 @@ export default function ShapeForm({ index, times }) {
 
       <div className="relative">
         <img
-          src="../../src/assets/body_figure_back.jpg"
+          src="../../../public/body_figure_back.jpg"
           className=" h-[700px] w-auto"
         ></img>
         <button
