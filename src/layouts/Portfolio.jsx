@@ -5,12 +5,7 @@ import portImg3 from "../assets/port/3.jpg";
 import portImg4 from "../assets/port/4.jpg";
 
 const Portfolio = () => {
-  const slides = [
-    { url: portImg1 },
-    { url: portImg2 },
-    { url: portImg3 },
-    { url: portImg4 },
-  ];
+  const slides = [portImg1, portImg2, portImg3, portImg4];
   const containerStyles = {
     width: "600px",
     height: "400px",
